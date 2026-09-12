@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyWorld in English — ADSO EVIDENCE Blog</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ══ NAV ══════════════════════════════════════════ -->
+  <nav class="site-nav">
+    <div class="nav-wrap">
+      <div class="nav-brand">My<em>World</em>inEnglish</div>
+      <div class="nav-tabs">
+        <button class="nav-tab active" onclick="goTo('home')" id="tab-home">
+          🏠 Home
+        </button>
+        <button class="nav-tab" onclick="goTo('about')" id="tab-about">
+          <span class="dot" style="background:#6ee7b7"></span> About Me
+        </button>
+        <button class="nav-tab" onclick="goTo('critical')" id="tab-critical">
+          <span class="dot" style="background:#7dd3f8"></span> Critical Thinking
+        </button>
+        <button class="nav-tab" onclick="goTo('crime')" id="tab-crime">
+          <span class="dot" style="background:#fca5a5"></span> Crime & Punishment
+        </button>
+        <button class="nav-tab" onclick="goTo('travel')" id="tab-travel">
+          <span class="dot" style="background:#c4b5fd"></span> Travel
+        </button>
+        <button class="nav-tab" onclick="goTo('hobbies')" id="tab-hobbies">
+          <span class="dot" style="background:#6ee7b7"></span> Hobbies
+        </button>
+        <button class="nav-tab" onclick="goTo('work')" id="tab-work">
+          <span class="dot" style="background:#fcd34d"></span> Work & Family
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════
+     PAGE 1 — HOME
+══════════════════════════════════════════════════ -->
+  <div class="page active" id="page-home">
+    <div class="home-hero">
+      <div class="home-hero-inner">
+        <div class="home-eyebrow">ADSO 3336194 · GA4-240202501-AA1-EV03 · English Blog by JULIO CESAR RUDAS SANCHEZ
+          · INSTRUCTOR PAULA ANDREA URBANO GOMEZ </div>
+        <h1>Learning English Through Real Life</h1>
+        <img src="img/img_3.jpeg" alt="Descripción de la imagen" width="180" height="300">
+        <p>A personal blog documenting my journey in my English Learning process — from everyday stories to complex
+          social topics.
+          Every post is a step forward in my formation.</p>
+        <div class="home-chips">
+          <span class="chip">📚 Level B1–B2</span>
+          <span class="chip">✍️ 7 posts</span>
+          <span class="chip">🌍 Cartagena, Colombia</span>
+          <span class="chip">📅 2026</span>
+        </div>
+      </div>
+    </div>
+    <div class="home-grid">
+      <p class="home-grid-title">All Posts — Click any card to read</p>
+      <div class="cards">
+
+        <div class="home-card" onclick="goTo('about')">
+          <div class="card-img-wrap">
+            <img src="img/img_2.png" alt="About Me" class="card-img-circle border-c3">
+          </div>
+          <span class="home-card-cat c3" style="background:var(--c3l)">About Me</span>
+          <h3>👋 Hello World — Who Am I and Why Am I Learning English?</h3>
+          <p>My story with English: since I was 4 years old, to a door to the world.</p>
+          <div class="home-card-foot">September 2026 · 3 min read</div>
+        </div>
+
+        <div class="home-card" onclick="goTo('critical')">
+          <div class="card-img-wrap">
+            <img src="img/critical.jpg" alt="Critical Thinking" class="card-img-circle border-c1">
+          </div>
+          <div style="display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;">
+            <span class="home-card-cat c1" style="background:var(--c1l)">Critical Thinking</span>
+            <span class="featured-badge">Featured</span>
+          </div>
+          <h3>🧠 Do You Really Believe Everything You Read Online?</h3>
+          <p>Media literacy, fake news, and how to think critically in the digital age.</p>
+          <div class="home-card-foot">September 2026 · 6 min read</div>
+        </div>
+
+        <div class="home-card" onclick="goTo('crime')">
+          <div class="card-img-wrap">
+            <img src="img/crime.jpeg" alt="Crime and Punishment" class="card-img-circle border-c2">
+          </div>
+          <div style="display:flex;gap:.5rem;align-items:center;flex-wrap:wrap;">
+            <span class="home-card-cat c2" style="background:var(--c2l)">Crime & Punishment</span>
+            <span class="featured-badge">Featured</span>
+          </div>
+          <h3>⚖️ Justice or Revenge? Understanding Crime and Punishment Today</h3>
+          <p>From ancient laws to modern prisons — what does justice really mean?</p>
+          <div class="home-card-foot">September 2026 · 7 min read</div>
+        </div>
+
+        <div class="home-card" onclick="goTo('travel')">
+          <div class="card-img-wrap">
+            <img src="img/travel.webp" alt="Travel" class="card-img-circle border-c4">
+          </div>
+          <span class="home-card-cat c4" style="background:var(--c4l)">Travel</span>
+          <h3>✈️ Playa Blanca, a wonderful destination — Sharing Life Experiences — What English Really Sounds Like</h3>
+          <p>Nothing prepares you for real English like the real thing.</p>
+          <div class="home-card-foot">July 2026 · 4 min read</div>
+        </div>
+
+        <div class="home-card" onclick="goTo('hobbies')">
+          <div class="card-img-wrap">
+            <img src="img/hobbies.png" alt="Hobbies" class="card-img-circle border-c3">
+          </div>
+          <span class="home-card-cat c3" style="background:var(--c3l)">Hobbies</span>
+          <h3>🎬 How Watching Series in English Changed Everything</h3>
+          <p>Breaking Bad, subtitles, and the day I realized I understood everything.</p>
+          <div class="home-card-foot">June 2026 · 3 min read</div>
+        </div>
+
+        <div class="home-card" onclick="goTo('work')">
+          <div class="card-img-wrap">
+            <img src="img/work.jpg" alt="Work and Family" class="card-img-circle border-c5">
+          </div>
+          <span class="home-card-cat c5" style="background:var(--c5l)">Work & Family</span>
+          <h3>💼 Two Activities: English at Work and Describing a family member or a friend</h3>
+          <p>The moment that I described a family Member — GA1-240202501-AA1-EV02. VIDEO PRESENTACIÓN MIEMBRO DE
+            LA FAMILIA O AMIGO.</p>
+          <p> Leadership, Responsibility, Communication, Adaptability. Soft Skills— Audio. GA3-240202501-AA1-EV02. My
+            Academic and Professional Context.</p>
+          <div class="home-card-foot">November 2025 · 5 min read</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+     PAGE 2 — ABOUT ME
+══════════════════════════════════════════════════ -->
+  <div class="page" id="page-about">
+    <div class="mini-post-wrap">
+      <div class="mini-hero c3-bg" style="border:1px solid var(--c3l);">
+        <span class="home-card-cat c3"
+          style="background:rgba(255,255,255,.7);margin-bottom:.8rem;display:inline-block;">About Me</span>
+        <h1 style="color:var(--ink);">Hello everyone — Who Am I and Why Am I Learning English?</h1>
+
+        <img src="img/img_2.png" alt="Img_2 Playa Blanca" width="250" height="300">
+        <p style="color:var(--mid);">My name is JULIO CESAR RUDAS SANCHEZ, a virtual ADSO SENA apprentice from
+          Cartagena, Colombia. English entered my life since I was 4 years old, so that, school, IDECI, Centro Colombo
+          Americano,
+          High School, University of Cartagena and SENA have been part of my English learning journey in my whole life.
+          Nowadays I´m a self-taught English learner.Everyday I use it and study too.
+          <img src="img/ideci.jpg" alt="Primer Certificado IDECI" width="200" height="300">
+          <img src="img/bpt.jpg" alt="Prueba de Nivel de Inglés" width="300" height="300">
+          </br> I love this language because English has been part of my life even
+          at job communications constantly. I do not consider English as a school or SENA ADSO subject only, but as a
+          door — a door to opportunities, to ideas, and to people I would never have met.
+        </p>
+        <div class="post-meta">
+          <div class="avatar" style="background:var(--c3);">JC</div>
+          <div class="post-meta-text"><strong>ADSO JULIO CÉSAR RUDAS SANCHEZ</strong> · September 2026 · 6 min read
+          </div>
+        </div>
+
+
+
+      </div>
+      <div class="post-body">
+        <h2>Where it all started</h2>
+        <p>Growing up in Cartagena, English was something I heard in movies, in TV, in songs, and in the conversations
+          of tourists walking through the walled city. Everything started when my Dad, brought to home a pretty and good
+          English encyclopedia called "Inglés Junior" from BBC London (15 books with 30 cassettes to follow lessons and
+          funny stories).
+          This happened when I was 4 years old. I consider my father is the main arquitect of my English learning
+          process, because he was the one who motivated me to learn English and gave me the tools to do it.
+          Since that, for all those years, English was just a hobbie and something so far to dominate
+          and become a challenge, a requirement — something I wanted to do, not something I had to
+          do.</p>
+        <img src="img/img_4.webp" alt="Curso de Inglés Junior" width="200" height="300">
+        <img src="img/img_5.webp" alt="Descripción de la imagen" width="300" height="300">
+        <p>That changed when I joined SENA's technology program. For the first time, English stopped being abstract. It
+          became directly connected to my future: the best programming documentation is in English. The best technical
+          courses are in English. The jobs that pay the most — in my field and in others — require English.</p>
+
+        <h2>Why this blog exists</h2>
+        <p>This blog is part of my formative evidence at SENA — specifically <strong>GA4-240202501-AA1-EV03</strong>.
+          But it is also something more personal: a record of my growth. Each post represents a topic I studied, a
+          vocabulary set I learned, a reflection I wrote in a language that is not my mother tongue.</p>
+        <p>If you are reading this and you are also learning English, I want you to know something: it is not about
+          being perfect. It is about being consistent. Show up every day, even if it is just one new word, one
+          paragraph, one conversation.</p>
+
+        <h2>A little about me</h2>
+        <ul>
+          <li>I am studying Analysis and Software Developement Technology ADSO at SENA, Cartagena.</li>
+          <li>I am interested in software development, data, and technology.</li>
+          <li>I am a Systems Engineer With University of Cartagena degree.</li>
+          <li>My hobbies include watching TV series and movies at the cinema, cycling, workout, sports, and listening to
+            good music and reading about current events.</li>
+          <li>I believe that language and critical thinking are inseparable.</li>
+          <li>My favorite English phrase right now: <em>"Progress, not perfection."</em></li>
+        </ul>
+
+        <div class="reflection-box c3-bg" style="border:1px solid var(--c3l);">
+          <p style="color:var(--ink);">Welcome to my blog. I hope what I write here is useful, honest, and occasionally
+            interesting. Every word here was written with effort and intention — and that, I think, is what learning
+            looks like.</p>
+        </div>
+      </div>
+      <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+        <div class="avatar" style="background:var(--c3);">JC</div>
+        <div class="post-meta-text"><strong>JULIO CÉSAR RUDAS SÁNCHEZ ADSO 3336134 || INSTRUCTOR: PAULA ANDREA URBANO
+            GÓMEZ</strong><br>September 2026
+          · Cartagena, Colombia · 3 min read
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+     PAGE 3 — CRITICAL THINKING
+══════════════════════════════════════════════════ -->
+  <div class="page" id="page-critical">
+    <div class="post-wrap">
+      <div class="post-header">
+        <span class="post-cat-label c1" style="background:var(--c1l);">Critical Thinking & Media Literacy</span>
+        <h1>Do You Really Believe Everything You Read Online?</h1>
+        <div class="card-img-wrap">
+          <img src="img/critical.jpg" alt="Critical Thinking" class="card-img-circle border-c1">
+        </div>
+        <p class="lead">In a world flooded with information, the ability to think critically and read media with a
+          questioning mind is no longer optional — it is essential for every citizen.</p>
+        <div class="post-meta">
+          <div class="avatar" style="background:var(--c1);">JC</div>
+          <div class="post-meta-text"><strong>ADSO JULIO CÉSAR RUDAS SANCHEZ</strong> · September 2026 · 6 min read
+          </div>
+        </div>
+      </div>
+
+      <div class="post-body">
+        <h2>What is Media Literacy?</h2>
+        <p>Media literacy is the ability to <strong>access, analyze, evaluate, and create</strong> media in various
+          forms. It means understanding that every piece of content — a news article, a social media post, a documentary
+          — was created by someone with a specific point of view, a purpose, and sometimes an agenda.</p>
+        <p>In the digital age, the volume of information we receive every day is overwhelming. According to researchers,
+          the average person is exposed to thousands of pieces of content daily. The critical question is not <em>how
+            much</em> we consume — but <em>how well</em> we filter it.</p>
+        <div style="text-align: center;">
+          <img src="img/medial.jpeg" alt="Media Literacy" width="500" height="300">
+        </div>
+
+
+
+        <blockquote class="c1-border" style="background:var(--c1l);">
+          <p>"Not everything that is shared is true, and not everything that is true is shared. The reader's job is to
+            find out which is which."</p>
+        </blockquote>
+
+        <h2>A Personal Experience with Fake News</h2>
+        <p>Last month, I came across a viral post on Instagram claiming that a famous Colombian scientist had discovered
+          a cure for diabetes. The post had thousands of likes and hundreds of comments saying "God bless this man." Out
+          of curiosity — and applying what I learned in my SENA formation — I decided to investigate:</p>
+        <ul>
+          <li>I searched for the scientist's name on Google Scholar — no results whatsoever.</li>
+          <li>I checked three reliable news sources: El Tiempo, BBC Mundo, Reuters — none mentioned the story.</li>
+          <li>I used a reverse image search — the photo was taken from a 2018 unrelated medical conference.</li>
+          <li>I found the original post — it had been shared from a page known for health misinformation.</li>
+        </ul>
+        <div style="text-align: center;">
+          <img src="img/fake.jpeg" alt="Fake News Example" width="500" height="300">
+        </div>
+        <p>The post was <strong>completely false</strong>. But thousands of people believed it, shared it, and commented
+          on it. This experience made me understand why media literacy is not a luxury — it is a survival skill in the
+          information age.</p>
+
+        <h2>Critical Thinking: Asking Better Questions</h2>
+        <div style="text-align: center;">
+          <img src="img/ct.jpeg" alt="Critical Thinking Example" width="500" height="300">
+        </div>
+        <p>Critical thinking is not about being negative or cynical. It is about being <em>systematic</em>. It means
+          applying a consistent set of questions before accepting or sharing information:</p>
+        <ul>
+          <li><strong>Who created this?</strong> Is there an author, an institution, a clear source?</li>
+          <li><strong>What is the purpose?</strong> To inform, persuade, entertain, or sell?</li>
+          <li><strong>What evidence supports it?</strong> Are there statistics, studies, experts cited?</li>
+          <li><strong>What perspectives are missing?</strong> Whose voice is not in this story?</li>
+          <li><strong>How does this make me feel?</strong> Emotional content is often designed to override reason.</li>
+        </ul>
+
+        <h2>My Checklist for Spotting Fake News</h2>
+        <div style="text-align: center;">
+          <img src="img/check.jpeg" alt="Checklist Example" width="500" height="300">
+        </div>
+        <ul>
+          <li><strong>Check the source:</strong> Is it a recognized institution or media outlet with editorial
+            standards?</li>
+          <li><strong>Read beyond the headline:</strong> Headlines are often misleading or incomplete.</li>
+          <li><strong>Look for dates:</strong> Old news is frequently reposted as if it were current.</li>
+          <li><strong>Cross-check with other sources:</strong> If only one outlet reports it, be suspicious.</li>
+          <li><strong>Verify images:</strong> Use Google Reverse Image Search or TinEye.</li>
+          <li><strong>Ask who benefits:</strong> Who gains from you believing this story?</li>
+          <li><strong>Check your own biases:</strong> We tend to believe what confirms what we already think.</li>
+        </ul>
+
+        <div class="vocab-box">
+          <h4>Key Vocabulary — Critical Thinking & Media</h4>
+          <div class="vocab-row"><span class="vocab-en">Misinformation</span><span class="vocab-es">información falsa
+              (sin intención maliciosa)</span></div>
+          <div class="vocab-row"><span class="vocab-en">Disinformation</span><span class="vocab-es">desinformación
+              intencional</span></div>
+          <div class="vocab-row"><span class="vocab-en">Bias</span><span class="vocab-es">sesgo / parcialidad</span>
+          </div>
+          <div class="vocab-row"><span class="vocab-en">Source credibility</span><span class="vocab-es">credibilidad de
+              la fuente</span></div>
+          <div class="vocab-row"><span class="vocab-en">Clickbait</span><span class="vocab-es">titular sensacionalista
+              para generar clics</span></div>
+          <div class="vocab-row"><span class="vocab-en">Echo chamber</span><span class="vocab-es">cámara de eco</span>
+          </div>
+          <div class="vocab-row"><span class="vocab-en">Fact-checking</span><span class="vocab-es">verificación de
+              datos</span></div>
+          <div class="vocab-row"><span class="vocab-en">Media literacy</span><span class="vocab-es">alfabetización
+              mediática</span></div>
+          <div class="vocab-row"><span class="vocab-en">Propaganda</span><span class="vocab-es">propaganda /
+              manipulación informativa</span></div>
+        </div>
+
+        <h2>My Reflection</h2>
+        <div class="reflection-box c1-bg" style="border:1px solid var(--c1l);">
+          <p>Learning English has also meant learning to read the world differently. In my formative process at SENA, I
+            have understood that <em>critical thinking is not about doubting everything</em> — it is about asking the
+            right questions before accepting anything as true. And the best questions are asked when we can express them
+            clearly, in any language. English has given me access to more information — and critical thinking has taught
+            me what to do with it.</p>
+        </div>
+      </div>
+      <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+        <div class="avatar" style="background:var(--c1);">JC</div>
+        <div class="post-meta-text"><strong>ADSO JULIO CÉSAR RUDAS SANCHEZ</strong><br>September 2026 · B1 Level · 6 min
+          read</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+     PAGE 4 — CRIME AND PUNISHMENT
+══════════════════════════════════════════════════ -->
+  <div class="page" id="page-crime">
+    <div class="post-wrap">
+      <div class="post-header">
+        <span class="post-cat-label c2" style="background:var(--c2l);">Crime and Punishment</span>
+        <h1>Justice or Revenge? Understanding Crime and Punishment in Today's World</h1>
+        <div class="card-img-wrap">
+          <img src="img/crime.jpeg" alt="Crime and Punishment" class="card-img-circle border-c2">
+        </div>
+        <p class="lead">From ancient laws to modern prison systems, humanity has always struggled with the same
+          question: what do we do with those who break the rules that hold society together?</p>
+        <div class="post-meta">
+          <div class="avatar" style="background:var(--c2);">JC</div>
+          <div class="post-meta-text"><strong>ADSO JULIO CÉSAR RUDAS SANCHEZ</strong> · September 2026 · 7 min read
+          </div>
+        </div>
+      </div>
+
+      <div class="post-body">
+        <h2>Defining Crime and Punishment</h2>
+        <p>A <strong>crime</strong> is any act that violates the laws of a society and is subject to legal punishment.
+          Punishment is the response that the State applies to those who commit crimes. But the real debate has never
+          been <em>whether</em> to punish — it has always been <em>how</em> and <em>why</em>.</p>
+
+        <div style="text-align: center;">
+          <img src="img/crime1.jpeg" alt="Crime and Punishment Example" width="500" height="700">
+        </div>
+
+        <p>Different societies throughout history have answered these questions very differently. Some have emphasized
+          retribution — making the offender suffer. Others have focused on rehabilitation — helping the offender become
+          a productive member of society again. Most modern systems try to balance both, with varying degrees of
+          success.</p>
+
+        <blockquote class="c2-border" style="background:var(--c2l);">
+          <p>"The degree of civilization in a society can be judged by entering its prisons."</p>
+          <cite>— Fyodor Dostoevsky, The House of the Dead</cite>
+        </blockquote>
+
+        <h2>The Four Goals of Punishment</h2>
+        <ul>
+          <li><strong>Retribution:</strong> The offender deserves to suffer proportionally to the harm they caused. This
+            is the most ancient form of justice — "an eye for an eye."</li>
+          <li><strong>Deterrence:</strong> The punishment serves as a warning to others. If the consequences are severe
+            enough, people will think twice before committing a crime.</li>
+          <li><strong>Rehabilitation:</strong> The goal is to reform the criminal through education, therapy, and
+            reintegration programs so they can return to society as a functioning member.</li>
+          <li><strong>Incapacitation:</strong> Keeping dangerous individuals away from society through imprisonment or
+            other restrictions to prevent further harm.</li>
+        </ul>
+
+        <h2>Crime in Colombia — A Personal Perspective</h2>
+        <p>Growing up in Cartagena, crime was not an abstract concept for me. I have seen how economic inequality, lack
+          of opportunities, and inadequate education push young people toward illegal activities. This taught me
+          something important: <strong>most crimes have social roots</strong>, not just individual moral failures.</p>
+
+        <div style="text-align: center;">
+          <img src="img/Col.jpeg" alt="Crime in Colombia Example" width="500" height="300">
+        </div>
+
+        <p>In recent years, Colombia has made significant progress in reducing violent crime rates. The homicide rate
+          has dropped substantially compared to the 1990s. However, the prison system remains severely overcrowded, and
+          recidivism — the rate of people returning to crime after release — remains a major challenge that the current
+          system has not been able to resolve.</p>
+        <p>I believe that simply locking people up without addressing the conditions that led them to crime in the first
+          place is not justice — it is just delay. Real justice requires investment in education, in mental health, in
+          economic opportunity. Prevention is always cheaper and more humane than punishment.</p>
+
+        <h2>Different Approaches Around the World</h2>
+        <div style="text-align: center;">
+          <img src="img/stats.svg" alt="Crime in the World Example" width="400" height="300">
+        </div>
+        <ul>
+          <li><strong>Norway:</strong> Focuses intensely on rehabilitation. Prison conditions are humane. The
+            reoffending rate is below 20% — one of the lowest in the world.</li>
+          <li><strong>United States:</strong> Relies heavily on long sentences and incapacitation. Has the highest
+            incarceration rate in the world — over 2 million people imprisoned.</li>
+          <li><strong>Japan:</strong> Uses strong community pressure, restorative practices, and a highly efficient
+            court system. Conviction rates exceed 99%.</li>
+          <li><strong>Colombia:</strong> A mixed system that has been moving toward restorative justice in recent years,
+            especially for non-violent offenders, with promising but uneven results.</li>
+        </ul>
+
+        <div class="vocab-box">
+          <h4>Key Vocabulary — Crime & Punishment</h4>
+          <div class="vocab-row"><span class="vocab-en">Felony</span><span class="vocab-es">delito grave</span></div>
+          <div class="vocab-row"><span class="vocab-en">Misdemeanor</span><span class="vocab-es">delito menor /
+              contravención</span></div>
+          <div class="vocab-row"><span class="vocab-en">Sentence</span><span class="vocab-es">condena / sentencia
+              judicial</span></div>
+          <div class="vocab-row"><span class="vocab-en">Recidivism</span><span class="vocab-es">reincidencia
+              delictiva</span></div>
+          <div class="vocab-row"><span class="vocab-en">Rehabilitation</span><span class="vocab-es">rehabilitación
+              social</span></div>
+          <div class="vocab-row"><span class="vocab-en">Restorative justice</span><span class="vocab-es">justicia
+              restaurativa</span></div>
+          <div class="vocab-row"><span class="vocab-en">Perpetrator</span><span class="vocab-es">autor del delito /
+              perpetrador</span></div>
+          <div class="vocab-row"><span class="vocab-en">Incarceration</span><span class="vocab-es">encarcelamiento /
+              reclusión</span></div>
+          <div class="vocab-row"><span class="vocab-en">Deterrence</span><span class="vocab-es">disuasión penal</span>
+          </div>
+          <div class="vocab-row"><span class="vocab-en">Acquittal</span><span class="vocab-es">absolución / veredicto de
+              inocencia</span></div>
+        </div>
+
+        <h2>My Reflection</h2>
+        <div class="reflection-box c2-bg" style="border:1px solid var(--c2l);">
+          <p>Studying the topic of crime and punishment in English has not only expanded my vocabulary — it has deepened
+            my understanding of justice as a philosophical and social concept. A system that only punishes without
+            trying to understand or correct the root causes of crime will always be incomplete. I believe that <em>true
+              justice heals society — it does not simply make it suffer in return.</em> The countries that have
+            understood this tend to be both safer and more humane. That is not a coincidence.</p>
+        </div>
+      </div>
+      <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+        <div class="avatar" style="background:var(--c2);">JC</div>
+        <div class="post-meta-text"><strong>ADSO JULIO CÉSAR RUDAS SÁNCHEZ</strong><br>September 2026 · B1 Level · 7 min
+          read</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+     PAGE 5 — TRAVEL
+══════════════════════════════════════════════════ -->
+  <div class="page" id="page-travel">
+    <div class="mini-post-wrap">
+      <div class="mini-hero c4-bg" style="border:1px solid #e0d5f5;">
+
+        <span class="home-card-cat c4"
+          style="background:rgba(255,255,255,.7);margin-bottom:.8rem;display:inline-block;">Travel</span>
+        <h1 style="color:var(--ink);">✈️ Playa Blanca, a wonderful destination </br>— Sharing
+          Life
+          Experiences — What English Really Sounds Like</h3>
+          <p>Nothing prepares you for real English like the real thing.</p>
+
+        </h1>
+        <div class="card-img-wrap">
+          <img src="img/travel.webp" alt="Work and Family" class="card-img-circle border-c5">
+        </div>
+        <p style="color:var(--mid);">I traveled to Playa Blanca for a family relax day. It was the first time I
+          expressed myself in English to explain my fellings and its natural context. I had studied English
+          for months at SENA, but nothing prepares
+          you for the real English in a real context — at the airport, at the hotel, with tourists. Nothing prepares you
+          for the real
+          thing like the real thing just us sharing life experiences too .</p>
+        <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+          <div class="avatar" style="background:var(--c4);">JC</div>
+          <div class="post-meta-text"><strong>ADSO - JULIO CÉSAR RUDAS SÁNCHEZ</strong><br>June 2026 · 3 min read</div>
+        </div>
+
+      </div>
+      <div class="post-body">
+        <h2>Playa Blanca Presentación. GA2-240202501-AA2-EV02.— An amazing beach for relax!</h2>
+        <p>I had studied English for months at SENA. I had watched videos, practiced pronunciation, memorized phrases. I
+          was confident. Then I arrived to Playa Blanca and then I wrote everything I remembered, so I described many
+          aspects for video presentation: <em>"Location, site description, Elements of the place, feelings, and personal
+            opinion"</em></p>
+
+        <div style="text-align: center;">
+          <img src="img/image.png" alt="Playa blanca" width="500" height="300">
+        </div>
+
+
+
+        <p>I understood every word. But for a moment, my brain froze. The real English — spoken at a normal pace, by a
+          real human, in a real context with consequences — felt completely different from the classroom version. I
+          answered correctly. But the experience humbled me.</p>
+
+        <h2>My Personal Opinion — Expressing preferences and feelings</h2>
+
+        <p>I chose Playa Blanca because it is one of the most beautiful places in Colombia.
+
+          It is perfect for Nautics, enjoying nature, and spending time with family or friends.
+          In my opinion, it is a wonderful and unforgettable place...</p>
+
+        <div class="video-container">
+          <video controls>
+            <source src="media/playa blanca.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+
+        <p>This taught me something important: <strong>accents are part of English</strong>. There is no single
+          "correct" English. There is Colombian English, Mexican English, Indian English, Nigerian English. The goal is
+          not to sound like a BBC presenter — the goal is to communicate.</p>
+
+        <h2>What I learned about language from this activity</h2>
+        <ul>
+          <li>To explain where site is located.</li>
+          <li>to describe natural features about the place I chose.</li>
+          <li>To express my personal opinion AND feelings about the place.</li>
+          <li>Listening is as important as speaking — maybe more.</li>
+          <li>The best way to improve is exposure: real situations, real stakes, real people.</li>
+        </ul>
+
+        <!--second section-->
+        <h2>Sharing life experiences *Foro. GA2-240202501-AA2-EV03.— Anecdote from the past job challenge!</h2>
+
+        <p>This forum activity focused on reflecting on a work experience in which I had to demonstrate flexibility and
+          adaptability when facing a new situation or a change in the work process.
+
+          As part of the activity, I reflected on the experience and answered the following questions:
+
+        <ul>
+          <em>
+            <li>What was the outcome of the experience?</li>
+            <li>How did my flexibility and adaptability help me manage the situation?</li>
+            <li> Would I change anything to handle the situation more effectively?</li>
+          </em>
+        </ul>
+        </p>
+        <div style="text-align: center;">
+          <img src="img/chall.jpeg" alt="Challenge at job" width="500" height="300">
+        </div>
+
+
+
+        <p> One of the most challenging experiences in my professional career as a Software Engineer was during the
+          development of an Information System designed to report project progress for Ecopetrol. In the middle of the
+          project, the client requested a significant reduction in the delivery schedule, which meant that the
+          development team had less time than originally planned to complete the software..</p>
+
+        <h2>My Personal Opinion — Adopting more agile development practices</h2>
+
+        <p>This experience taught me that flexibility and adaptability are essential skills in Software Engineering
+          projects. When the delivery schedule for the Ecopetrol project was shortened, the team had to reorganize
+          priorities and focus on the most critical functionalities. For example, instead of developing all reporting
+          modules simultaneously, we decided to implement the core dashboard first, allowing stakeholders to monitor
+          project progress while additional features were completed later...</p>
+
+        <h2>What I learned about language from this experience</h2>
+        <ul>
+          <li>Despite the reduced timeline, the project was delivered successfully and met the client's main
+            requirements.</li>
+          <li>Effective teamwork, prioritization of critical functionalities, and continuous communication with
+            stakeholders.</li>
+          <li>To express my personal opinion AND feelings about the place.</li>
+          <li>We were able to provide a reliable system that improved the monitoring and reporting of project progress —
+          </li>
+          <li>Instead of focusing on the limitations, I concentrated on finding practical solutions and maintaining a
+            positive attitude throughout the process.</li>
+        </ul>
+
+        <!--footer -->
+        <div class="reflection-box c4-bg" style="border:1px solid #e0d5f5;">
+          <p style="color:var(--ink);">This experience taught me that flexibility and adaptability are essential skills
+            in Software Engineering projects. Overall, this experience demonstrated that adaptability, effective
+            communication, and proactive decision-making can make the difference between project failure and project
+            success</p>
+        </div>
+      </div>
+      <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+        <div class="avatar" style="background:var(--c4);">JC</div>
+        <div class="post-meta-text"><strong>ADSO JULIO CÉSAR RUDAS SÁNCHEZ</strong><br>July 2026 · 4 min read</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+     PAGE 6 — HOBBIES
+══════════════════════════════════════════════════ -->
+  <div class="page" id="page-hobbies">
+    <div class="mini-post-wrap">
+      <div class="mini-hero c3-bg" style="border:1px solid #c8edd8;">
+        <span class="home-card-cat c3"
+          style="background:rgba(255,255,255,.7);margin-bottom:.8rem;display:inline-block;">Hobbies & Interests</span>
+        <h1 style="color:var(--ink);">How Watching Series in English Changed Everything</h1>
+        <div class="card-img-wrap">
+          <img src="img/hobbies.png" alt="Hobbies" class="card-img-circle border-c3">
+        </div>
+        <p style="color:var(--mid);">I started watching Doctor House with Spanish subtitles. Then English subtitles.
+          Then no subtitles at all. I didn't notice when the switch happened.</p>
+
+        <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+          <div class="avatar" style="background:var(--c3);">JC</div>
+          <div class="post-meta-text"><strong>ADSO - JULIO CÉSAR RUDAS SÁNCHEZ</strong><br>June 2026 · 3 min read</div>
+        </div>
+      </div>
+      <div class="post-body">
+        <h2>The accidental language school</h2>
+        <p>I did not set out to use TV as a learning method. I just wanted to watch a good series. But somewhere between
+          Doctor House's first chemistry class and the final season, I realized I was no longer reading the subtitles. I
+          was just watching.</p>
+        <div style="text-align: center;">
+          <img src="img/doctor.jpeg" alt="Doctor House Serie" width="500" height="300">
+        </div>
+        <p>The process was gradual and largely unconscious. Spanish subtitles gave me the story. English subtitles gave
+          me the vocabulary. And eventually, my brain connected the sounds to the meaning without needing a translation
+          in between. That is, I believe, when real language acquisition begins.</p>
+
+        <h2>My recommended series for learning English</h2>
+        <ul>
+          <li><strong>Breaking Bad:</strong> Complex vocabulary, moral dilemmas, and the clearest dialogue I have ever
+            heard in American English.</li>
+          <li><strong>The Office (US):</strong> Everyday conversational English, humor, and workplace vocabulary.</li>
+          <li><strong>Planet Earth (BBC):</strong> Formal narration, nature vocabulary, and David Attenborough's perfect
+            diction.</li>
+          <li><strong>Ted Lasso:</strong> Positive, motivational English with a mix of British and American accents.
+          </li>
+          <li><strong>Dark (with English dub):</strong> Complex time-based vocabulary — challenging but rewarding.</li>
+        </ul>
+
+        <h2>Other hobbies that help me learn</h2>
+        <p>Beyond series, I enjoy <strong>cycling</strong> while listening to English podcasts — "TED Talks Daily" and
+          "6 Minute English" from the BBC are my favorites. I also contribute occasionally to <strong>open-source
+            projects on GitHub</strong>, where all communication happens in English, which forces me to write
+          professionally and clearly.</p>
+        <div style="text-align: center;">
+          <img src="img/cycling.jpeg" alt="Cycling" width="500" height="300">
+        </div>
+
+        <div class="reflection-box c3-bg" style="border:1px solid #c8edd8;">
+          <p style="color:var(--ink);">The best language learning happens when you forget you are learning. Find what
+            you love — series, music, sports, games — and find it in English. The vocabulary will follow. The grammar
+            will follow. The confidence will follow. Just start with something you genuinely enjoy.</p>
+        </div>
+      </div>
+      <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+        <div class="avatar" style="background:var(--c3);">JC</div>
+        <div class="post-meta-text"><strong>ADSO - JULIO CÉSAR RUDAS SÁNCHEZ</strong><br>June 2026 · 3 min read</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════
+     PAGE 7 — WORK & FAMILY
+══════════════════════════════════════════════════ -->
+  <div class="page" id="page-work">
+    <div class="mini-post-wrap">
+      <div class="mini-hero c5-bg" style="border:1px solid #f0dea0;">
+        <span class="home-card-cat c5"
+          style="background:rgba(255,255,255,.7);margin-bottom:.8rem;display:inline-block;">Work & Family</span>
+
+        <h1 style="color:var(--ink);">Two Activities: English at Work and Describing a family member or a friend</h1>
+        <div class="card-img-wrap">
+          <img src="img/work.jpg" alt="Work and Family" class="card-img-circle border-c5">
+        </div>
+        <p style="color:var(--mid);">This two activities required give information about a family member or friend
+          while we were talking about important facts just as Physical description, nationality, occupation and Hobbies—
+          Otherwise Audio activity Based on the description, about solving troubles that appear in day a day job context
+          that becomes a challenge. Using the respective grammar contains and oral strategies to express the way how we
+          solve obstacles succesfully.
+
+        <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+          <div class="avatar" style="background:var(--c5);">JC</div>
+          <div class="post-meta-text"><strong>ADSO JULIO CÉSAR RUDAS SÁNCHEZ</strong><br>March – May 2026 · 5 min read
+          </div>
+        </div>
+      </div>
+      <div class="post-body">
+        <h2>Video presentación. GA1-240202501-AA1-EV02. — Family</h2>
+        <p>It was a pleasure for me to do this activity, because it allowed me to practice my English skills in a
+          describing a family member. In this ocassion my wife ."</em></p>
+        <div style="text-align: center;">
+          <img src="img/MW.jpg" alt="VideoPresentación My Wife" width="500" height="300">
+        </div>
+
+        <p>Three minutes of Video Presentation. This activity consisted of creating and presenting a short video in
+          English describing a family member. For this presentation, I chose to talk about my wife, introducing her
+          personal characteristics, occupation, hobbies and some important aspects of her life like spirituality and
+          musical interests. The purpose of the activity
+          was
+          to practice vocabulary related to family members, improve pronunciation, and strengthen oral communication
+          skills in English.
+          <em>"Any effort in describing someone, let us to be better communicators."</em>
+        </p>
+
+
+        <p>One of the most important learning outcomes achieved through this activity was
+          the ability to introduce and describe a family member using simple and coherent sentences.
+          Additionally, I improved my listening, speaking, and pronunciation skills while applying
+          basic grammatical structures in a real communication context.— it is a professional tool with real
+          consequences.</p>
+
+
+        <iframe src="https://www.canva.com/design/DAFqV3YajU4/eEPIYLe5xKA82KxJ53EMBA/view?embed" width="100%"
+          height="600" frameborder="0" allowfullscreen title="Diseño de Canva">
+        </iframe>
+
+        <h2>What this activity taught me about English</h2>
+        <ul>
+          <li>Professional English is different from academic English — more direct, more practical.</li>
+          <li>Confidence matters as much as grammar. A hesitant speaker loses credibility.</li>
+          <li>The importance of English as a professional and personal communication tool.</li>
+          <li>To be able to introduce and describe family members using basic English vocabulary and
+            grammatical structures to express ideas about someone else — three things that require practice.</li>
+        </ul>
+
+        <h2>Audio. GA3-240202501-AA1-EV02. My Academic and Professional Context de la competencia; GA3-240202501-AA2.
+          Reportar sobre posibles soluciones a problemas, a partir de contextos laborales.</h2>
+
+        <p>
+        <h2>Synthesis:</h2>
+        The audio discusses the importance of leadership, responsibility, and professional growth in academic and work
+        environments. It focuses on expressing opinions about professional trajectories, brands, actions, and possible
+        solutions to different problems, especially in the fields of software development and software engineering.
+        </p>
+
+        <p>The content highlights that a successful software professional needs more than technical knowledge. Soft
+          skills, such as communication, teamwork, adaptability, critical thinking, decision-making, and leadership,
+          are
+          also essential. These skills help professionals work effectively with colleagues, understand users’ needs,
+          manage conflicts, and propose practical solutions.</p>
+
+        <p> The audio also explains that technology is constantly changing. Therefore, software engineers must remain
+          flexible, learn continuously, update their technical knowledge, and adapt to new tools, methodologies, and
+          digital trends. Responsibility is important because software projects require commitment, ethical decisions,
+          compliance with requirements, and the delivery of reliable solutions.</p>
+
+        <h2>What this activity taught me about English</h2>
+
+        <p>Through this exercise, learners develop the ability to:
+        <ul>
+          <li> Express opinions about academic and professional experiences.</li>
+          <li> Describe their professional trajectory and future goals.</li>
+          <li> Discuss actions and possible solutions to workplace problems.</li>
+          <li> Discuss actions and possible solutions to workplace problems.</li>
+          <li> Recognize the importance of leadership and responsibility.</li>
+          <li> Understand the relationship between technical knowledge and soft skills.</li>
+          <li> Improve communication in English within software development contexts.</li>
+          <li> Reflect on the importance of adapting to technological changes.</li>
+          <li> Strengthen professional confidence, critical thinking, and problem-solving skills.</li>
+        </ul>
+        </p>
+        <section class="audio-section">
+
+          <h2>Reporte sobre posibles soluciones a problemas</h2>
+
+          <p>Escucha el audio correspondiente a esta actividad:</p>
+
+          <audio controls>
+            <source src="media/audio-ga3.mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+          </audio>
+
+        </section>
+
+
+        <div class="reflection-box c5-bg" style="border:1px solid #f0dea0;">
+          <p style="color:var(--ink);"> <em>Language learning does not have to happen alone, in a classroom, with a
+              textbook.
+              It can happen everywhere</em>, so that, in conclusion, the exercise helps us to catch the point in
+            professional
+            growth in software engineering depends not only on programming and technical abilities, but also on
+            leadership, responsibility, communication, adaptability, and continuous learning.</p>
+        </div>
+      </div>
+      <div class="post-meta" style="border-top:1px solid var(--rule);padding-top:1.2rem;">
+        <div class="avatar" style="background:var(--c5);">JC</div>
+        <div class="post-meta-text"><strong>ADSO JULIO CÉSAR RUDAS SÁNCHEZ</strong><br>March – May 2026 · 5 min read
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <strong>MyWorldinEnglish</strong> · English Level 6 MCER B1.1 · Evidencia GA4-240202501-AA1-EV03 · JULIO CÉSAR
+    RUDAS
+    SÁNCHEZ ADSO 3336134 · Cartagena, Colombia · 2026
+  </footer>
+
+  <script>
+    function goTo(id) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+      document.getElementById('page-' + id).classList.add('active');
+      document.getElementById('tab-' + id).classList.add('active');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+
+</html>
